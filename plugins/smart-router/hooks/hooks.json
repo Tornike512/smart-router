@@ -1,0 +1,16 @@
+{
+  "description": "Scores each prompt and nudges Claude to delegate simple, mechanical work to the quick-helper subagent.",
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash \"${CLAUDE_PLUGIN_ROOT}/scripts/run-python.sh\" \"${CLAUDE_PLUGIN_ROOT}/scripts/route.py\"",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  }
+}

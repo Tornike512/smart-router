@@ -1,0 +1,17 @@
+{
+  "name": "smart-router",
+  "owner": {
+    "name": "tornike512"
+  },
+  "metadata": {
+    "description": "Token-saving routing for Claude Code: delegates simple, mechanical prompts to a Haiku subagent."
+  },
+  "plugins": [
+    {
+      "name": "smart-router",
+      "source": "./plugins/smart-router",
+      "description": "Nudges Claude to hand simple, mechanical prompts to a cheaper Haiku subagent without switching the main model.",
+      "category": "productivity"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "smart-router",
+  "version": "0.1.0",
+  "description": "Scores each prompt with free keyword rules and nudges Claude to delegate simple, mechanical work to a Haiku subagent, saving tokens without breaking the prompt cache.",
+  "author": {
+    "name": "tornike512"
+  },
+  "repository": "https://github.com/Tornike512/smart-router",
+  "license": "MIT",
+  "keywords": ["routing", "haiku", "subagent", "cost", "tokens", "hooks"]
+}
